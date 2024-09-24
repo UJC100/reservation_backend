@@ -17,9 +17,6 @@ export class ReservationDocument extends AbstractDocument {
     userId: string;
 
     @Prop()
-    place: string;
-
-    @Prop()
     invoice: string;
 }
 
